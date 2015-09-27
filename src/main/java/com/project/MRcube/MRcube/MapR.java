@@ -24,8 +24,6 @@ public class MapR {
       }
      
       static String executeQuery(String sqlStatement) {
-    	  
-  		System.out.println("\n=============================================");
   		System.out.println("Running Query: " + sqlStatement);
 
   		Connection con = null;
